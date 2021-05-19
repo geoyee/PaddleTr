@@ -12,3 +12,4 @@ torch_module.eval()
 # 输出测试
 out = torch_module(torch.tensor(input_data))
 print(out.size())
+print(out)
