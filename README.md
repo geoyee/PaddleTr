@@ -8,7 +8,7 @@ ILSVRC2012
 
 ## Parameters
 
-目前直接由x2paddle转换得到的模型及参数计算结果与官方代码的形状都不一致，正在提交issue [#549](https://github.com/PaddlePaddle/X2Paddle/issues/594)。自己修改的网络能够跑通，没有参数不知道与官方输出的对应程度有多少。
+目前直接由x2paddle转换得到的模型及参数计算结果与官方代码输出不一致，但形状相同，接下来将尝试进行预测
 
 ## Reference
 

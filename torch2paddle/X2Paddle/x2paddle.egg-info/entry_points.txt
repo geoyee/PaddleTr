@@ -1,0 +1,3 @@
+[console_scripts]
+x2paddle = x2paddle.convert:main
+

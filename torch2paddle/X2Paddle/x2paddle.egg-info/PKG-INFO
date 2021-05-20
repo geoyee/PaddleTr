@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: x2paddle
+Version: 1.2.0
+Summary: a toolkit for converting trained model to PaddlePaddle from other deep learning frameworks.
+Home-page: https://github.com/PaddlePaddle/x2paddle
+Author: dltp-sz
+Author-email: dltp-sz@baidu.com
+License: Apache 2.0
+Description: X2Paddle is a toolkit for converting trained model to PaddlePaddle from other deep learning frameworks.
+        
+        Usage: x2paddle --framework tensorflow --model tf_model.pb --save_dir paddle_model
+        GitHub: https://github.com/PaddlePaddle/X2Paddle
+        Email: dltp-sz@baidu.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
