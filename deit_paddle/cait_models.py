@@ -3,9 +3,9 @@ import paddle.nn as nn
 import paddle.nn.functional as F
 from functools import partial
 
-from pimm.models.vision_transformer import Mlp, PatchEmbed , _cfg
-from pimm.models.registry import register_model
-from pimm.models.layers import trunc_normal_, constant_init
+from deit_paddle.pimm.models.vision_transformer import Mlp, PatchEmbed , _cfg
+from deit_paddle.pimm.models.registry import register_model
+from deit_paddle.pimm.models.layers import trunc_normal_, constant_init
 
 
 __all__ = [

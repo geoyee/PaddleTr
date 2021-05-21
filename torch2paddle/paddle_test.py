@@ -1,5 +1,5 @@
 import paddle
-from pd_model_trace.x2paddle_code import VisionTransformer
+from torch2paddle.pd_model_trace.x2paddle_code import VisionTransformer
 
 
 # 测试

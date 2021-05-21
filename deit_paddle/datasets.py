@@ -6,8 +6,8 @@ from paddle.vision import transforms, image_load
 from paddle.vision.datasets import ImageFolder
 from paddle.io import DataLoader
 
-from pimm.data.constants import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
-from pimm.data import create_transform
+from deit_paddle.pimm.data.constants import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
+from deit_paddle.pimm.data import create_transform
 
 
 class INatDataset(ImageFolder):

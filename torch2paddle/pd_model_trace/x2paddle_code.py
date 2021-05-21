@@ -1,5 +1,6 @@
 import paddle
 import math
+from paddle.nn.functional.loss import l1_loss
 from x2paddle.op_mapper.dygraph.pytorch2paddle import pytorch_custom_layer as x2paddle_nn
 class Attention(paddle.nn.Layer):
     def __init__(self, ):

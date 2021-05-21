@@ -1,5 +1,5 @@
 from .layers import PatchEmbed, Mlp
-from pimm.data.constants import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
+from deit_paddle.pimm.data.constants import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
 
 
 def _cfg(url='', **kwargs):

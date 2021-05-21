@@ -1,8 +1,8 @@
 from pathlib import Path
 import argparse
-from get_argument import get_args_parser
+from deit_paddle.get_argument import get_args_parser
 
-from datasets import build_dataset, DataLoader
+from deit_paddle.datasets import build_dataset, DataLoader
 from paddle.io import RandomSampler
 
 

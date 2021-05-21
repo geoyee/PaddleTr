@@ -3,10 +3,10 @@ import math
 import paddle
 from paddle.vision import transforms
 
-from pimm.data.constants import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD, DEFAULT_CROP_PCT
-from pimm.data.auto_augment import rand_augment_transform, augment_and_mix_transform, auto_augment_transform
-from pimm.data.transforms import _pil_interp, RandomResizedCropAndInterpolation, ToNumpy, ToTensor
-from pimm.data.random_erasing import RandomErasing
+from deit_paddle.pimm.data.constants import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD, DEFAULT_CROP_PCT
+from deit_paddle.pimm.data.auto_augment import rand_augment_transform, augment_and_mix_transform, auto_augment_transform
+from deit_paddle.pimm.data.transforms import _pil_interp, RandomResizedCropAndInterpolation, ToNumpy, ToTensor
+from deit_paddle.pimm.data.random_erasing import RandomErasing
 
 
 def transforms_noaug_train(

@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-from deit.models import deit_tiny_patch16_224
+from torch2paddle.deit.models import deit_tiny_patch16_224
 from x2paddle.convert import pytorch2paddle
 
 
