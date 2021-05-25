@@ -477,4 +477,4 @@ def cait_M48(pretrained=False, **kwargs):
             
         model.load_state_dict(checkpoint_no_module)
         
-    return model         
+    return model
