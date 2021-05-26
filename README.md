@@ -11,7 +11,7 @@ ILSVRC2012
 前向传播ok，输出结果和torch输出结果接近
 
 - 模型文件：deit_paddle
-- 参数文件：参考AI Studio
+- 参数文件：XXS24_224.pdparams
 
 ## 参考
 
