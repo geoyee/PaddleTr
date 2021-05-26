@@ -3,3 +3,9 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+.inference_model/*
+*.pdparams
+*.pdiparams
+*.pdmodel
+*.pdiparams.info
